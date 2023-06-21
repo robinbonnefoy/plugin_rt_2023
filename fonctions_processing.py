@@ -93,7 +93,8 @@ class fct_pro :
     def preparation_export (self, nom_projet, chemin_dossier) :
         """ Lance l'export du projet choisi par l'utilisateur """
         if nom_projet == 'Xylella_ENR' :
-            self.fct_graph.graph_pie_chart(c_xyl_enr_prelevement,'xylella_ENR') # édition des graphiques
+            self.fct_graph.graph_pie_chart_filter(c_xyl_enr_prelevement,'xylella_ENR_ZT', "zone", 'ZT_15-20km') # édition des graphiques en zone ZT
+            self.fct_graph.graph_pie_chart_filter(c_xyl_enr_prelevement,'xylella_ENR_ZI', "zone", 'ZI_10-15km') # édition des graphiques en zone ZI
             self.export_V2 (c_xyl_ENR_ZT_rendu_qgz, c_xyl_RT_qgz, 'rendu ENR', 'bilan_xylella_ENR_ZT', chemin_dossier, 'Le bilan Xylella_ENR a bien été exporté !') # Export PDF
 
         elif nom_projet == 'Xylella_11F' :

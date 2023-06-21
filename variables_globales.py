@@ -31,4 +31,4 @@ c_xyl_81A_rendu_qgz = "//nas-fredon/CARTO/3_Cartographie/01_Donnees/27-suivi_car
 
 # Dossier de sauvegarde des exports :
 
-c_dossier_sauv = "Z:/3_Cartographie/01_Donnees/27-suivi_carto_RT/Rendus/1_Export_PDF"
+c_dossier_sauv = "//nas-fredon/3_Cartographie/01_Donnees/27-suivi_carto_RT/Rendus/1_Export_PDF"
