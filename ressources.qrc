@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/plugin_rt_2023/image" >
+        <file>image/logo.png</file>
+        <file>image/logo_fredon.png</file>
+    </qresource>
+</RCC>

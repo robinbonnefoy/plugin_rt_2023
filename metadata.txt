@@ -1,0 +1,15 @@
+# EXPORT BILANS PDF RT - Fredon Occitanie
+# With QGIS : 32204
+# Owner : Robin BONNEFOY
+
+[general]
+name=FREDON OCCITANIE RT
+description=Export de bilans PDF
+version=1.0
+qgisMinimumVersion=3.16
+author=Robin BONNEFOY
+email=r.bonnefoy@fredon-occitanie.fr
+experimental=False
+server=False
+icon=image/logo.png
+repository=https://github.com/robinbonnefoy/fredonoccitanie
